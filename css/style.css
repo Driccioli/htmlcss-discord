@@ -85,9 +85,10 @@ header{
     }
 
 .feature{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 100vh;
     padding: 15vh 250px;
+    font-size: 20px;
     text-align: left;
 }
 
@@ -99,17 +100,18 @@ header{
         width: 400px;
         height: 400px;
         float: left;
-        border: 1px solid black;
+        /* border: 1px solid black; */
     }
 
     .feature > :last-child{
         width: 400px;
         height: 400px;
         float: right;
-        border: 1px solid black;
+        /* border: 1px solid black; */
     }
 
     .big-feature{
+        padding: 5vh 250px;
         background-color: lightgray;
         text-align: center;
     }
@@ -134,7 +136,7 @@ header{
 footer{
     background-color: #23272A;
     padding: 10vh 150px 10vh 150px;
-    height: 150vh;
+    height: 110vh;
     color: white;
 }
 
@@ -161,7 +163,7 @@ footer{
     }
 
         footer > ul > li{
-            line-height: 10vh;
+            line-height: 7vh;
             margin-right: 20px;
         }
 
