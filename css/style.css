@@ -18,6 +18,7 @@ ul{
 .button{
     border-radius: 12px;
     padding: 1vh 15px;
+    display: inline-block;
 }
 
 nav{
@@ -51,4 +52,141 @@ nav{
             margin-top: 1vh;
             background-color: white;
             color: black;
+        }
+
+header{
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #3161E0;
+    background-size:contain;
+    height: 81.4vh;
+    padding: 15vh 350px;
+    font-size: 20px;
+    line-height: 5vh;
+}
+    header > div{
+        text-align: center;
+        color: white;
+    }
+
+        header > div > span{
+            margin-top: 5vh;
+        }
+
+    #white{
+        background-color: white;
+        color: black;
+    }
+
+    #black{
+        background-color: black;
+        color: white;
+    }
+
+.feature{
+    border: 2px solid black;
+    height: 100vh;
+    padding: 15vh 250px;
+    text-align: left;
+}
+
+    .feature:nth-child(even){
+        background-color: lightgray;
+    }
+
+    .feature > :first-child{
+        width: 400px;
+        height: 400px;
+        float: left;
+        border: 1px solid black;
+    }
+
+    .feature > :last-child{
+        width: 400px;
+        height: 400px;
+        float: right;
+        border: 1px solid black;
+    }
+
+    .big-feature{
+        background-color: lightgray;
+        text-align: center;
+    }
+
+#download{
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    font-size: 30px;
+}
+
+    #download > h2{
+        background-image: url("../img/stars.svg");
+    }
+
+    #download > span{
+        background-color:lightsteelblue;
+        color: white;
+        font-size: 20px;
+    }
+
+footer{
+    background-color: #23272A;
+    padding: 10vh 150px 10vh 150px;
+    height: 150vh;
+    color: white;
+}
+
+    footer b{
+        color:lightsteelblue;
+    }
+
+    footer > #links{
+        float: left;
+        width: 200px;
+        margin-right:40px;
+        display: inline-block;
+    }
+
+    footer img{
+        display: inline-block;
+        width: 30px;
+    }
+
+    footer > ul{
+        display: inline-block;
+        float: left;
+        width: 200px;
+    }
+
+        footer > ul > li{
+            line-height: 10vh;
+            margin-right: 20px;
+        }
+
+    .social{
+        filter: brightness(0) invert(1);
+        width: 25px;
+        margin-top: 2vh;
+        margin-right: 10px;
+    }
+
+
+    #end{
+        float: left;
+        width:100%;
+    }
+
+        #end > img{
+            margin-top: 1vh;
+            float: left;
+            width: 150px;
+            display: inline-block;
+        }
+
+        #end > span{
+            margin-top: 2vh;
+            float: right;
+            background-color: rgb(66, 118, 185);
         }
